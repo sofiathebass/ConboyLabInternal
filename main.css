@@ -1,0 +1,174 @@
+html {
+    margin:0;
+    background-color: #11315F;
+    font-family: "source serif pro", Georgia, "Times New Roman", serif;
+}
+
+body {
+    background-color: white;
+    margin:0;
+}
+
+.title {
+    background: rgb(11,32,62);
+    background: linear-gradient(0deg, rgba(11,32,62,1) 0%, rgba(17,49,95,1) 15%, rgba(17,49,95,1) 100%);
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    word-wrap: break-word;
+}
+
+.header {
+    background-color: rgb(0, 177, 218);
+    color: white;
+    font-family: "source serif pro", Georgia, "Times New Roman", serif;
+}
+
+
+a { 
+    color: white; 
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
+
+a:visited { 
+    text-decoration: none; 
+  } 
+
+a:hover { 
+    text-decoration: none; 
+    color: rgba(17,49,95,1);
+  } 
+
+a:active { 
+    text-decoration: none; 
+  }
+
+.dropbtn {
+    background-color: rgba(17,49,95,0);
+    color: white;
+    font-weight: 500;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor:pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    cursor:pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor:pointer;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor:pointer;
+  }
+  
+  .dropdown-content a:hover {color: rgba(17,49,95,1);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color: rgba(17,49,95,1);}
+
+  .footer {
+    background-color: #11315F;
+    color: white;
+    text-align: left;
+    margin-top: 10%;
+    padding-top: 2%;
+    padding-left: 10%;
+  }
+
+
+
+  .homepage-body {
+    margin-left: 2%;
+  }
+
+
+  .member-container {
+    display: flex;
+  }
+
+  .member {
+    flex: 35%;
+    padding: 3%;
+    margin: 2%;
+
+  }
+
+  .member:hover {
+    text-decoration: none; 
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+
+  .inventory-body {
+    text-align: center;
+    color: black;
+  }
+
+  .iframe {
+    align-items: center;
+    display:block;
+    text-align: center;
+  }
+
+  .inventory-pages {
+    display: flex;
+  }
+
+  .page {
+    flex: 25%;
+    color: black;
+  }
+
+  #inventory {
+    color: #11315F;
+  }
+
+  #inventory:hover {
+    color: rgb(92, 92, 92);
+  }
+
+
+
+  .sop-body {
+    text-align: center;
+  }
+
+  #sop {
+    color: black;
+  }
+
+  .newmembers-body {
+    margin: 5%;
+  }
+
+  .toc {
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 1%;
+    font-weight: 600;
+  }
